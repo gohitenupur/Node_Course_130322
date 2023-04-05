@@ -22,6 +22,11 @@ Note- event queues takes in alot of operations at once, node is based on concept
 The purpose of package.json is to have an Object containing details of all dependencies we installed from NPM as packages, So that the next time we open our code in another computer, we run 'npm install' and that command installs all the dependencies from the package.json into that computer. Everything we install comes from "registery.npmjs.org"
 For eg: 'npm install uuid' is a package that we can install to generate random ids, Now my package.json file automatically has the details of this dependency like version number;
 
+```npm install -g nodemon // for global installation 
+   npm install --save-dev nodemon // to add in dev dependency
+``` 
+
+
 <h3>'npm install -D nodemon'</h3>
 
 Nodemon is a tool used in Node.js development that automatically restarts the Node.js application whenever changes are made to the code. This helps developers save time and effort by eliminating the need to manually stop and restart the server every time a code change is made.
